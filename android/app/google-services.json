@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "258379317988",
+    "project_id": "spin-slo-5af7a",
+    "storage_bucket": "spin-slo-5af7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258379317988:android:513f2c5043cd5789dce2f1",
+        "android_client_info": {
+          "package_name": "winspin.casinoboom.realtime.moneytook.slotsdoor.gamespruf.pokiespuzzle.online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258379317988-d65sj3264inf4vcru4qga9nu129e4k7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Tx-vbfBhwda59ezk1HFlV1TApoQO-AM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258379317988-d65sj3264inf4vcru4qga9nu129e4k7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
