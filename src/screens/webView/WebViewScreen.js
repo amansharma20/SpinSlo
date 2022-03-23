@@ -17,7 +17,7 @@ import DeviceCountry, {
 
 const WebViewScreen = ({value}) => {
   const [webViewUrl, setWebViewUrl] = useState();
-  // console.log('webViewUrl :', webViewUrl);
+  console.log('webViewUrl :', webViewUrl);
 
   const navigation = useNavigation();
 
@@ -70,19 +70,19 @@ const WebViewScreen = ({value}) => {
       const androidId = await getUniqueId();
 
       // const tempUrl = value + '?' + model + '?' + geo + '?' + androidId;
-      const tempUrl = value + '?' + model + '?' + countryCode + '?' + androidId;
+      // const tempUrl = value + '?' + model + '?' + countryCode + '?' + androidId;
 
-      // const tempUrl =
-      //   value +
-      //   '&' +
-      //   `device=` +
-      //   model +
-      //   '&' +
-      //   `country=` +
-      //   geo +
-      //   '&' +
-      //   `bid=` +
-      //   androidId;
+      const tempUrl =
+        value +
+        '?' +
+        `device=` +
+        model +
+        '&' +
+        `country=` +
+        countryCode +
+        '&' +
+        `bid=` +
+        androidId;
 
       // console.log('tempUrl :', tempUrl);
       
